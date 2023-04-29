@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBBB5277-B3E0-4F2C-B42D-D3254BAB6A93}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GuidoCT</RootNamespace>
+    <AssemblyName>GuidoCT</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>GuidoCT.ico</ApplicationIcon>
+    <StartupObject>Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDSReader">
+      <HintPath>C:\Users\Heaventh\Downloads\Updater(3)\Updater\DDSReader.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Data.Desktop.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Data.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Drawing.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Pdf.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v22.2.Drawing, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Pdf.v22.2.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Printing.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.RichEdit.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Sparkline.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.Utils.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.XtraEditors.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.XtraGrid.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.XtraLayout.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.XtraPrinting.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.XtraRichEdit.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\DevExpress.XtraTreeList.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Discord.Net.Core">
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\Discord.Net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Discord.Net.Webhook">
+      <HintPath>C:\Users\Heaventh\Downloads\Guido Console Tool Cracked By Academician_2\Guido Console Tool Cracked By Academician\Guido Console Tool Cracked By Academician\Discord.Net.Webhook.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscordRPC">
+      <HintPath>C:\Users\Heaventh\Downloads\Updater(3)\Updater\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="JRPC">
+      <HintPath>C:\Users\Heaventh\Downloads\Updater(3)\Updater\JRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="xDevkit">
+      <HintPath>C:\Users\Heaventh\source\repos\MW3 test\MW3 test\bin\Debug\xDevkit.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="GuidoCT\CmdTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\CmdTool.Designer.cs">
+      <DependentUpon>CmdTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\DashEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\DashEditor.Designer.cs">
+      <DependentUpon>DashEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\DevTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\DevTools.Designer.cs">
+      <DependentUpon>DevTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\FileBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\FileBrowser.Designer.cs">
+      <DependentUpon>FileBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\ForceJoiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\ForceJoiner.Designer.cs">
+      <DependentUpon>ForceJoiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\INIEditorTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\INIEditorTool.Designer.cs">
+      <DependentUpon>INIEditorTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\ModuleConfigTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\ModuleConfigTool.Designer.cs">
+      <DependentUpon>ModuleConfigTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\ModuleLibTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\ModuleLibTool.Designer.cs">
+      <DependentUpon>ModuleLibTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\Properties\Resources.cs" />
+    <Compile Include="GuidoCT\Properties\Settings.cs" />
+    <Compile Include="GuidoCT\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GuidoCT\ScreenshotTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\ScreenshotTool.Designer.cs">
+      <DependentUpon>ScreenshotTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuidoCT\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuidoCT\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginList\INI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\INI.cs" />
+    <Compile Include="ToolSettings\INI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GuidoCT\CmdTool.resx">
+      <DependentUpon>CmdTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\DashEditor.resx">
+      <DependentUpon>DashEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\DevTools.resx">
+      <DependentUpon>DevTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\FileBrowser.resx">
+      <DependentUpon>FileBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\ForceJoiner.resx">
+      <DependentUpon>ForceJoiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\INIEditorTool.resx">
+      <DependentUpon>INIEditorTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\ModuleConfigTool.resx">
+      <DependentUpon>ModuleConfigTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\ModuleLibTool.resx">
+      <DependentUpon>ModuleLibTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\Properties\Resources.resources" />
+    <EmbeddedResource Include="GuidoCT\ScreenshotTool.resx">
+      <DependentUpon>ScreenshotTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuidoCT\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="GuidoCT\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Guido.ico" />
+    <Content Include="GuidoCT.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
