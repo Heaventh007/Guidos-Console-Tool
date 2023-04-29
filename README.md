@@ -11,4 +11,6 @@ of the tool itself.
 
 Any other references should all be in the releases, and the source. 
 
+Originally cracked by Academician. 
+
 Enjoy everyone! 
